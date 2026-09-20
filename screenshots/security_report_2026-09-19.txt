@@ -1,0 +1,222 @@
+=== Failed Authentication Attempts ===
+Sep 19 18:59:01 localhost.localdomain sshd-session[3871]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Sep 19 18:59:03 localhost.localdomain sshd-session[3871]: Failed password for invalid user fakeuser from 127.0.0.1 port 42644 ssh2
+Sep 19 18:59:22 localhost.localdomain sshd-session[3871]: Failed password for invalid user fakeuser from 127.0.0.1 port 42644 ssh2
+Sep 19 18:59:22 localhost.localdomain sshd-session[3871]: Failed password for invalid user fakeuser from 127.0.0.1 port 42644 ssh2
+=== Service Failures ===
+Sep 19 18:43:56 localhost kernel: pci 0000:00:16.4: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:16.5: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:16.6: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:16.7: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:17.0: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:17.1: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:17.2: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:17.3: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:17.4: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:17.5: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:17.6: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:17.7: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:18.0: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:18.1: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:18.2: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:18.3: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:18.4: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:18.5: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:18.6: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:18.7: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:17.5: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:17.4: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:17.3: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:17.2: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:17.1: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:17.0: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:16.7: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:16.6: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:16.5: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:16.4: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:16.3: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:16.2: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:16.1: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:15.7: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:15.6: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:15.5: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:15.4: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:15.3: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:15.2: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: pci 0000:00:15.1: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:43:56 localhost kernel: x86/amd: Previous system reset reason [0xffffffff]: system failed to boot before failed boot timer expired
+Sep 19 18:43:56 localhost kernel: x86/amd: Previous system reset reason [0xffffffff]: FCH and MP1 failed warm reset handshake
+Sep 19 18:43:58 localhost systemd-vconsole-setup[750]: KD_FONT_OP_GET failed while trying to get the font metadata: Invalid argument
+Sep 19 18:44:03 localhost mount[1071]:        dmesg(1) may have more information after failed mount system call.
+Sep 19 18:44:03 localhost systemd[1]: run-vmblock\x2dfuse.mount: Failed with result 'exit-code'.
+Sep 19 18:44:03 localhost systemd[1]: Failed to mount run-vmblock\x2dfuse.mount - VMware vmblock Fuse Mount.
+Sep 19 18:44:04 localhost systemd-tmpfiles[1116]: Opening file "/tmp/.X11-unix/X1024" failed, proceeding without lock: No such device or address
+Sep 19 18:44:04 localhost systemd-tmpfiles[1116]: Opening file "/tmp/.X11-unix/X1025" failed, proceeding without lock: No such device or address
+Sep 19 18:44:04 localhost systemd[1]: mcelog.service: Failed with result 'exit-code'.
+Sep 19 18:44:06 localhost alsactl[1291]: alsa-lib main.c:1554:(snd_use_case_mgr_open) error: failed to import hw:0 use case configuration -2
+Sep 19 18:44:09 localhost.localdomain /usr/libexec/gdm-wayland-session[1591]: dbus-daemon[1591]: [session uid=42 pid=1591] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 19 18:44:11 localhost.localdomain colord[1874]: failed to get edid data: EDID length is too small
+Sep 19 18:44:12 localhost.localdomain org.gnome.Shell.desktop[1660]: Window manager warning: Failed to parse saved session file: Failed to open file “/var/lib/gdm/.config/mutter/sessions/1019a3f47c58d62ab3178985784935080300000015970000.ms”: No such file or directory
+Sep 19 18:44:12 localhost.localdomain /usr/libexec/gdm-wayland-session[1591]: dbus-daemon[1591]: [session uid=42 pid=1591] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 19 18:44:12 localhost.localdomain gsd-sharing[2003]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 19 18:44:12 localhost.localdomain gsd-sharing[2003]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 19 18:44:14 localhost.localdomain gsd-media-keys[2034]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Sep 19 18:44:14 localhost.localdomain gsd-media-keys[2034]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep 19 18:44:14 localhost.localdomain gsd-media-keys[2034]: Failed to grab accelerator for keybinding settings:hibernate
+Sep 19 18:44:56 localhost.localdomain gsd-media-keys[2034]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Sep 19 18:44:56 localhost.localdomain systemd[2519]: app-gnome-xdg\x2duser\x2ddirs-2646.scope: Failed to add PIDs to scope's control group: No such process
+Sep 19 18:44:56 localhost.localdomain systemd[2519]: app-gnome-xdg\x2duser\x2ddirs-2646.scope: Failed with result 'resources'.
+Sep 19 18:44:56 localhost.localdomain systemd[2519]: Failed to start app-gnome-xdg\x2duser\x2ddirs-2646.scope - Application launched by gnome-session-binary.
+Sep 19 18:44:57 localhost.localdomain systemd[2519]: Dependency failed for org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service.
+Sep 19 18:44:57 localhost.localdomain systemd[2519]: org.gnome.SettingsDaemon.XSettings.service: Job org.gnome.SettingsDaemon.XSettings.service/start failed with result 'dependency'.
+Sep 19 18:44:57 localhost.localdomain systemd[2519]: gnome-session-x11-services-ready.target: Job gnome-session-x11-services-ready.target/verify-active failed with result 'dependency'.
+Sep 19 18:45:00 localhost.localdomain gsd-usb-protect[2771]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+Sep 19 18:45:01 localhost.localdomain libcanberra-login-sound.desktop[2992]: Failed to play sound: File or data not found
+Sep 19 18:45:01 localhost.localdomain gsd-media-keys[2752]: Failed to grab accelerator for keybinding settings:hibernate
+Sep 19 18:45:01 localhost.localdomain gsd-media-keys[2752]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep 19 18:45:04 localhost.localdomain gsd-xsettings[3346]: Failed to get current UI scaling factor: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+Sep 19 18:45:06 localhost.localdomain packagekitd[1979]: g_path_get_basename: assertion 'file_name != NULL' failed
+Sep 19 18:45:09 localhost.localdomain PackageKit[1979]: resolve transaction /173_aededede from uid 1000 finished with failed after 950ms
+Sep 19 18:45:09 localhost.localdomain PackageKit[1979]: resolve transaction /174_ccecdeab from uid 1000 finished with failed after 299ms
+Sep 19 18:45:13 localhost.localdomain PackageKit[1979]: resolve transaction /175_dbeabdca from uid 1000 finished with failed after 260ms
+Sep 19 18:45:13 localhost.localdomain PackageKit[1979]: resolve transaction /176_bdeacdab from uid 1000 finished with failed after 217ms
+Sep 19 18:45:13 localhost.localdomain PackageKit[1979]: resolve transaction /177_dabbdcdd from uid 1000 finished with failed after 396ms
+Sep 19 18:45:13 localhost.localdomain PackageKit[1979]: resolve transaction /178_ccddbeee from uid 1000 finished with failed after 187ms
+Sep 19 18:45:14 localhost.localdomain PackageKit[1979]: resolve transaction /179_beeabacc from uid 1000 finished with failed after 163ms
+Sep 19 18:45:14 localhost.localdomain PackageKit[1979]: resolve transaction /180_dcbbcdcc from uid 1000 finished with failed after 184ms
+Sep 19 18:45:15 localhost.localdomain PackageKit[1979]: resolve transaction /181_ecdaedba from uid 1000 finished with failed after 198ms
+Sep 19 18:45:15 localhost.localdomain PackageKit[1979]: get-updates transaction /182_bccdcbca from uid 1000 finished with failed after 212ms
+Sep 19 18:45:15 localhost.localdomain PackageKit[1979]: get-updates transaction /183_dedbdede from uid 1000 finished with failed after 149ms
+Sep 19 18:45:15 localhost.localdomain PackageKit[1979]: resolve transaction /184_bcccbbdc from uid 1000 finished with failed after 130ms
+Sep 19 18:45:15 localhost.localdomain PackageKit[1979]: get-updates transaction /185_baadeced from uid 1000 finished with failed after 141ms
+Sep 19 18:45:18 localhost.localdomain PackageKit[1979]: get-updates transaction /186_abaecbee from uid 1000 finished with failed after 142ms
+Sep 19 18:45:18 localhost.localdomain PackageKit[1979]: get-updates transaction /187_aedbecaa from uid 1000 finished with failed after 134ms
+Sep 19 18:45:18 localhost.localdomain PackageKit[1979]: get-updates transaction /188_abebadbc from uid 1000 finished with failed after 135ms
+Sep 19 18:46:15 localhost.localdomain ptyxis[3489]: g_hash_table_insert_internal: assertion 'hash_table != NULL' failed
+Sep 19 18:46:15 localhost.localdomain ptyxis[3489]: g_hash_table_remove_internal: assertion 'hash_table != NULL' failed
+Sep 19 18:48:21 localhost.localdomain fwupd[3414]: 22:48:21.236 FuPluginUpower       failed to query lid state
+Sep 19 18:48:21 localhost.localdomain fwupd[3414]: 22:48:21.236 FuPluginUpower       failed to query lid state
+Sep 19 18:48:21 localhost.localdomain gsd-subman[2769]: g_atomic_ref_count_dec: assertion 'old_value > 0' failed
+Sep 19 18:48:23 localhost.localdomain systemd[2519]: dbus-:1.2-org.gnome.Ptyxis@1.service: Failed with result 'exit-code'.
+Sep 19 18:48:23 localhost.localdomain dbus-broker-launch[1143]: Activation request for 'org.freedesktop.ColorManager' failed.
+Sep 19 18:48:23 localhost.localdomain dbus-broker-launch[1143]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+Sep 19 18:48:36 localhost kernel: pci 0000:00:16.4: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:16.5: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:16.6: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:16.7: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:17.0: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:17.1: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:17.2: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:17.3: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:17.4: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:17.5: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:17.6: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:17.7: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:18.0: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:18.1: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:18.2: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:18.3: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:18.4: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:18.5: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:18.6: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:18.7: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:17.5: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:17.4: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:17.3: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:17.2: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:17.1: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:17.0: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:16.7: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:16.6: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:16.5: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:16.4: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:16.3: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:16.2: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:16.1: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:15.7: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:15.6: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:15.5: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:15.4: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:15.3: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:15.2: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: pci 0000:00:15.1: bridge window [io  size 0x1000]: failed to assign
+Sep 19 18:48:36 localhost kernel: x86/amd: Previous system reset reason [0xffffffff]: system failed to boot before failed boot timer expired
+Sep 19 18:48:36 localhost kernel: x86/amd: Previous system reset reason [0xffffffff]: FCH and MP1 failed warm reset handshake
+Sep 19 18:48:38 localhost systemd-vconsole-setup[710]: KD_FONT_OP_GET failed while trying to get the font metadata: Invalid argument
+Sep 19 18:48:43 localhost mount[1079]:        dmesg(1) may have more information after failed mount system call.
+Sep 19 18:48:43 localhost systemd[1]: run-vmblock\x2dfuse.mount: Failed with result 'exit-code'.
+Sep 19 18:48:43 localhost systemd[1]: Failed to mount run-vmblock\x2dfuse.mount - VMware vmblock Fuse Mount.
+Sep 19 18:48:43 localhost systemd-tmpfiles[1112]: Opening file "/tmp/.X11-unix/X1024" failed, proceeding without lock: No such device or address
+Sep 19 18:48:43 localhost systemd-tmpfiles[1112]: Opening file "/tmp/.X11-unix/X1025" failed, proceeding without lock: No such device or address
+Sep 19 18:48:43 localhost systemd-tmpfiles[1112]: Opening file "/tmp/.ICE-unix/1597" failed, proceeding without lock: No such device or address
+Sep 19 18:48:44 localhost systemd[1]: mcelog.service: Failed with result 'exit-code'.
+Sep 19 18:48:47 localhost alsactl[1304]: alsa-lib main.c:1554:(snd_use_case_mgr_open) error: failed to import hw:0 use case configuration -2
+Sep 19 18:48:49 localhost.localdomain /usr/libexec/gdm-wayland-session[1549]: dbus-daemon[1549]: [session uid=42 pid=1549] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 19 18:48:51 localhost.localdomain colord[1845]: failed to get edid data: EDID length is too small
+Sep 19 18:48:52 localhost.localdomain org.gnome.Shell.desktop[1611]: Window manager warning: Failed to parse saved session file: Failed to open file “/var/lib/gdm/.config/mutter/sessions/10c913fd658b2a0364178985812944194000000015500000.ms”: No such file or directory
+Sep 19 18:48:53 localhost.localdomain /usr/libexec/gdm-wayland-session[1549]: dbus-daemon[1549]: [session uid=42 pid=1549] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 19 18:48:53 localhost.localdomain gsd-sharing[1972]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 19 18:48:53 localhost.localdomain gsd-sharing[1972]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 19 18:48:55 localhost.localdomain gsd-media-keys[2027]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep 19 18:48:55 localhost.localdomain gsd-media-keys[2027]: Failed to grab accelerator for keybinding settings:hibernate
+Sep 19 18:49:13 localhost.localdomain systemd[2475]: app-gnome-xdg\x2duser\x2ddirs-2602.scope: Failed with result 'resources'.
+Sep 19 18:49:13 localhost.localdomain systemd[2475]: Failed to start app-gnome-xdg\x2duser\x2ddirs-2602.scope - Application launched by gnome-session-binary.
+Sep 19 18:49:15 localhost.localdomain systemd[2475]: Dependency failed for org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service.
+Sep 19 18:49:15 localhost.localdomain systemd[2475]: org.gnome.SettingsDaemon.XSettings.service: Job org.gnome.SettingsDaemon.XSettings.service/start failed with result 'dependency'.
+Sep 19 18:49:15 localhost.localdomain systemd[2475]: gnome-session-x11-services-ready.target: Job gnome-session-x11-services-ready.target/verify-active failed with result 'dependency'.
+Sep 19 18:49:15 localhost.localdomain gnome-session[2578]: gnome-session-binary[2578]: GnomeDesktop-WARNING: Could not create transient scope for PID 2786: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 19 18:49:15 localhost.localdomain gnome-session-binary[2578]: GnomeDesktop-WARNING: Could not create transient scope for PID 2786: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 19 18:49:17 localhost.localdomain gsd-usb-protect[2746]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+Sep 19 18:49:19 localhost.localdomain libcanberra-login-sound.desktop[2788]: Failed to play sound: File or data not found
+Sep 19 18:49:20 localhost.localdomain gsd-media-keys[2719]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep 19 18:49:20 localhost.localdomain gsd-media-keys[2719]: Failed to grab accelerator for keybinding settings:hibernate
+Sep 19 18:49:20 localhost.localdomain gsd-xsettings[3247]: Failed to get current UI scaling factor: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+Sep 19 18:49:24 localhost.localdomain packagekitd[1967]: g_path_get_basename: assertion 'file_name != NULL' failed
+Sep 19 18:49:28 localhost.localdomain PackageKit[1967]: resolve transaction /190_dcbaedac from uid 1000 finished with failed after 1584ms
+Sep 19 18:49:28 localhost.localdomain PackageKit[1967]: resolve transaction /191_eccdecce from uid 1000 finished with failed after 242ms
+Sep 19 18:49:29 localhost.localdomain PackageKit[1967]: resolve transaction /192_ddeacade from uid 1000 finished with failed after 180ms
+Sep 19 18:49:31 localhost.localdomain PackageKit[1967]: resolve transaction /193_dcebeeca from uid 1000 finished with failed after 289ms
+Sep 19 18:49:31 localhost.localdomain PackageKit[1967]: resolve transaction /194_abeebabe from uid 1000 finished with failed after 214ms
+Sep 19 18:49:32 localhost.localdomain PackageKit[1967]: resolve transaction /195_edababdc from uid 1000 finished with failed after 174ms
+Sep 19 18:49:32 localhost.localdomain PackageKit[1967]: resolve transaction /196_caadabae from uid 1000 finished with failed after 201ms
+Sep 19 18:49:33 localhost.localdomain PackageKit[1967]: resolve transaction /197_eedaccec from uid 1000 finished with failed after 196ms
+Sep 19 18:49:34 localhost.localdomain PackageKit[1967]: resolve transaction /198_bbcbdade from uid 1000 finished with failed after 164ms
+Sep 19 18:49:34 localhost.localdomain PackageKit[1967]: get-updates transaction /199_dcccdaed from uid 1000 finished with failed after 305ms
+Sep 19 18:49:34 localhost.localdomain PackageKit[1967]: get-updates transaction /200_eebebdbb from uid 1000 finished with failed after 230ms
+Sep 19 18:49:34 localhost.localdomain PackageKit[1967]: resolve transaction /201_dcabaeca from uid 1000 finished with failed after 158ms
+Sep 19 18:49:35 localhost.localdomain PackageKit[1967]: get-updates transaction /202_ddcababd from uid 1000 finished with failed after 226ms
+Sep 19 18:49:37 localhost.localdomain PackageKit[1967]: get-updates transaction /203_cbbbedab from uid 1000 finished with failed after 145ms
+Sep 19 18:49:37 localhost.localdomain PackageKit[1967]: get-updates transaction /204_cecaaaeb from uid 1000 finished with failed after 149ms
+Sep 19 18:49:37 localhost.localdomain PackageKit[1967]: get-updates transaction /205_aeabecbe from uid 1000 finished with failed after 150ms
+Sep 19 18:59:03 localhost.localdomain sshd-session[3871]: Failed password for invalid user fakeuser from 127.0.0.1 port 42644 ssh2
+Sep 19 18:59:22 localhost.localdomain sshd-session[3871]: Failed password for invalid user fakeuser from 127.0.0.1 port 42644 ssh2
+Sep 19 18:59:22 localhost.localdomain sshd-session[3871]: Failed password for invalid user fakeuser from 127.0.0.1 port 42644 ssh2
+=== Priority err or above ===
+Sep 19 18:43:56 localhost kernel: [Firmware Bug]: cpu 0, try to use APIC520 (LVT offset 2) for vector 0xf4, but the register is already in use for vector 0x0 on this cpu
+Sep 19 18:43:56 localhost kernel: [Firmware Bug]: cpu 1, try to use APIC520 (LVT offset 2) for vector 0xf4, but the register is already in use for vector 0x0 on this cpu
+Sep 19 18:43:57 localhost kernel: Warning: Unmaintained driver is detected: cnic
+Sep 19 18:43:57 localhost kernel: Warning: Unmaintained driver is detected: cnic_init
+Sep 19 18:43:57 localhost kernel: Warning: Unmaintained driver is detected: bnx2i
+Sep 19 18:43:57 localhost kernel: Warning: Unmaintained driver is detected: bnx2i_mod_init
+Sep 19 18:44:03 localhost systemd[1]: Failed to mount run-vmblock\x2dfuse.mount - VMware vmblock Fuse Mount.
+Sep 19 18:44:04 localhost kernel: piix4_smbus 0000:00:07.3: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+Sep 19 18:44:06 localhost alsactl[1291]: alsa-lib main.c:1554:(snd_use_case_mgr_open) error: failed to import hw:0 use case configuration -2
+Sep 19 18:44:53 localhost.localdomain gdm-password][2504]: gkr-pam: unable to locate daemon control file
+Sep 19 18:44:56 localhost.localdomain systemd[2519]: Failed to start app-gnome-xdg\x2duser\x2ddirs-2646.scope - Application launched by gnome-session-binary.
+Sep 19 18:48:23 localhost.localdomain dbus-broker-launch[1143]: Activation request for 'org.freedesktop.ColorManager' failed.
+Sep 19 18:48:23 localhost.localdomain dbus-broker-launch[1143]: Activation request for 'org.freedesktop.nm_dispatcher' failed.
+Sep 19 18:48:24 localhost.localdomain auditd[1125]: plugin /usr/sbin/sedispatch terminated unexpectedly
+-- Boot 43aac3fae00e4a51ae378416253eefb5 --
+Sep 19 18:48:36 localhost kernel: [Firmware Bug]: cpu 0, try to use APIC520 (LVT offset 2) for vector 0xf4, but the register is already in use for vector 0x0 on this cpu
+Sep 19 18:48:36 localhost kernel: [Firmware Bug]: cpu 1, try to use APIC520 (LVT offset 2) for vector 0xf4, but the register is already in use for vector 0x0 on this cpu
+Sep 19 18:48:36 localhost kernel: Warning: Unmaintained driver is detected: cnic
+Sep 19 18:48:36 localhost kernel: Warning: Unmaintained driver is detected: cnic_init
+Sep 19 18:48:36 localhost kernel: Warning: Unmaintained driver is detected: bnx2i
+Sep 19 18:48:36 localhost kernel: Warning: Unmaintained driver is detected: bnx2i_mod_init
+Sep 19 18:48:43 localhost systemd[1]: Failed to mount run-vmblock\x2dfuse.mount - VMware vmblock Fuse Mount.
+Sep 19 18:48:45 localhost kernel: piix4_smbus 0000:00:07.3: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+Sep 19 18:48:47 localhost alsactl[1304]: alsa-lib main.c:1554:(snd_use_case_mgr_open) error: failed to import hw:0 use case configuration -2
+Sep 19 18:49:09 localhost.localdomain gdm-password][2463]: gkr-pam: unable to locate daemon control file
+Sep 19 18:49:13 localhost.localdomain systemd[2475]: Failed to start app-gnome-xdg\x2duser\x2ddirs-2602.scope - Application launched by gnome-session-binary.
+=== IP Failure Counts ===
+127.0.0.1: 6 attempts - SUSPECT

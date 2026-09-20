@@ -1,0 +1,6 @@
+[Unit]
+Description=SentryLog Security Digest
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/sentrylog.sh
