@@ -29,19 +29,20 @@ All steps use only standard RH134 syllabus tools: `journalctl`, `chronyc`, `syst
 
 ## Repository Structure
 
-sentrylog-security-digest/
-├── sentrylog.sh # Core log-extraction and IP-flagging script
-├── sentrylog.service # systemd service unit
-├── sentrylog.timer # systemd timer unit (06:00 daily, Persistent=true)
-├── README.md # This file
-├── commands.txt # Command log, including failed attempts
-├── verification.txt # Verification command output
+SENTRYLOG-SECURITY-DIGEST/
+├── sentrylog.sh                    # Core log-extraction and IP-flagging script
+├── sentrylog.service               # systemd service unit
+├── sentrylog.timer                 # systemd timer unit (06:00 daily, Persistent=true)
+├── sentrylog-cleanup.conf          # tmpfiles.d retention rule (30-day report cleanup)
+├── README.md                       # This file
+├── commands.txt                    # Full recorded command log (script -a)
+├── verification.txt                # Consolidated verification command output
 └── screenshots/
-├── 01-persistent-journal.png
-├── 02-chrony-sync.png
-├── 03-sample-report.png
-├── 04-systemd-timer.png
-└── 05-crontab.png
+    ├── 01-persistent-journal.png
+    ├── 02-chrony-sync.png
+    ├── 03-sample-report.png
+    ├── 04-systemd-timer.png
+    └── 05-crontab.png
 
 
 ## How to Run
